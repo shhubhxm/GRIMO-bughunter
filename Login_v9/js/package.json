@@ -1,0 +1,11 @@
+{
+  "name": "bugtracker",
+  "version": "1.0.0",
+  "description": "This is a Bug Tracking system which keeps tab of all your bug.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Vyas",
+  "license": "ISC"
+}

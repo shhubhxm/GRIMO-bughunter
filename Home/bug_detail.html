@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Grimo | Bug Details</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Google fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:500i&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap" rel="stylesheet">
+  <!-- Owl Carousel-->
+  <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.theme.default.min.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.violet.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+  <!-- navbar-->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100">
+      <div class="container"><a class="navbar-brand d-block d-lg-none" href="#"><span class="heading">GRIMO</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#hero">Home </a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#works">Works</a></li>
+          </ul>
+          <ul class="navbar-nav d-none d-lg-block px-4">
+            <li class="nav-item"><a class="heading" class="nav-link" href="#">GRIMO</a></li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#sermons">Sermons </a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#events">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- navbar image-->
+  <section class="bg-cencer bg-cover" style="background: url(img/hero-bg-7.jpg)">
+    <div class="dark-overlay">
+      <div class="overlay-content py-5 index-forward">
+        <div class="container py-5 mt-5">
+          <div class="row py-5 text-white text-center">
+            <div class="col-lg-7 mx-auto">
+              <h1 class="text-xl">Text page</h1>
+              <p class="lead">Use this subpage for text, about us page, and more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- form-->
+  <div class="container py-5">
+    <div class="card mb-4" id="forms">
+      <div class="card-header">Bug Details</div>
+      <div class="card-body">
+        <form>
+          <fieldset>
+            <legend>Fill Out The Bug Details Below</legend>
+            <div class="form-group">
+              <label for="exampleInputEmail">Bug Title</label>
+              <input class="form-control" id="exampleInputEmail" type="text" placeholder="Enter Bug Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail">Start Date</label>
+                <input class="form-control date" id="exampleInputEmail" type="date" placeholder="Enter Starting Date">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail">Due Date</label>
+                <input class="form-control date" id="exampleInputEmail" type="date" placeholder="Enter Due Date">
+            </div>
+            <!-- <div class="form-group">
+                <label for="exampleInputEmail">Total Time</label>
+                <input class="form-control" id="exampleInputEmail" type="datetime" placeholder="Enter Total Time">
+            </div> -->
+            <div class="form-group">
+              <label for="exampleInputPassword">Bug Description</label>
+              <input class="form-control" id="exampleInputPassword" type="text"
+                placeholder="Enter The Bug Description">
+            </div>
+            <div class="form-group dropdown">
+              <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Priority</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">High</a><a class="dropdown-item" href="#">Medium</a><a class="dropdown-item"
+                  href="#">Low</a>
+                </div>
+            </div>
+            <div class="form-group dropdown">
+                <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" type="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bug Status</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">In Progress
+                    </a><a class="dropdown-item" href="#">Pending</a><a class="dropdown-item
+                    href="#">QA Assigned</a><a class="dropdown-item" href="#">UAT Release</a></div>
+            </div>           
+            <div class="form-group dropdown">
+              <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" type="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add Developer</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Leonard
+                  Adleman</a><a class="dropdown-item" href="#">Bill Atkinson</a><a class="dropdown-item"
+                  href="#">Richard Brodie</a><a class="dropdown-item" href="#">Shubham Vyas</a></div>
+            </div>
+            <div class="form-check form-group">
+              <input class="form-check-input" id="checkbox-1" type="checkbox">
+              <label class="form-check-label" for="checkbox-1">You accept our terms and conditions.</label>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="pt-5 text-white" style="background: #111">
+    <div class="container pt-5">
+      <div class="row mb-5 pb-5">
+        <div class="col-md-4 col-sm-12">
+          <p class="heading"><a class="nav-link" class="heading" href="#">GRIMO</a></p>
+          <p class="text-small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <h5 class="mb-4 mt-3">Upcoming events</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <h6 class="mb-1"> <a class="reset-anchor text-primary" href="#">Bug Hunting 1</a></h6>
+              <p class="text-muted text-small text-fancy mb-0">New York, 18 April 2020</p>
+            </li>
+            <li class="mb-2">
+              <h6 class="mb-1"> <a class="reset-anchor text-primary" href="#">Bug Hunting 2</a></h6>
+              <p class="text-muted text-small text-fancy mb-0">New York, 18 April 2020</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <h5 class="mb-4 mt-3">Newsletter</h5>
+          <p class="text-small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="input-group">
+            <input class="form-control border-dark text-white rounded-0" type="search"
+              placeholder="Enter your email address" aria-label="email address" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary px-4" id="button-addon2" type="submit"><i
+                  class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-4 border-top border-dark text-center">
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/owl.carousel2/owl.carousel.min.js"></script>
+  <script src="vendor/jquery-circle-progress/circle-progress.min.js"></script>
+  <script src="vendor/smooth-scroll/smooth-scroll.min.js"></script>
+  <script src="vendor/jquery.countdown/jquery.countdown.js"></script>
+  <script src="js/front.js"></script>
+  <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</body>
+
+</html>
